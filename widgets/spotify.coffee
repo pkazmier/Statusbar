@@ -1,6 +1,6 @@
 command: "sh ./scripts/spotify.sh"
 
-refreshFrequency: '2s' # ms
+refreshFrequency: 10000
 
 render: (output) ->
   """
