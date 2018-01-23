@@ -6,4 +6,6 @@ Pretty much copied from https://github.com/japorized/dotfiles, although there wa
 There are also other very minor changes such as padding and color-changes.
 
 FontAwesome must be installed system wide (Grab FontAwesome.otf from somewhere and drop it into FontBook.app).
-Clone repo and move the entire **Widgets** folder into `~/Library/Application Support/Übersicht/`
+Clone repo and move the entire **widgets** folder into `~/Library/Application Support/Übersicht/`
+
+Get Úbersicht here http://tracesof.net/uebersicht/
