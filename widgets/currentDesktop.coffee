@@ -45,8 +45,8 @@ update: (output, domEl) ->
     $(domEl).find('li.active').removeClass('active')
     $(domEl).find('li#desktop' + output).addClass('active')
 
-  $('#desktop1').on "click", => @run "/usr/local/bin/khd -p 'cmd + alt - 1'"
-  $('#desktop2').on "click", => @run "/usr/local/bin/khd -p 'cmd + alt - 2'"
-  $('#desktop3').on "click", => @run "/usr/local/bin/khd -p 'cmd + alt - 3'"
-  $('#desktop4').on "click", => @run "/usr/local/bin/khd -p 'cmd + alt - 4'"
-  $('#desktop5').on "click", => @run "/usr/local/bin/khd -p 'cmd + alt - 5'"
+  $('#desktop1').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 1'"
+  $('#desktop2').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 2'"
+  $('#desktop3').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 3'"
+  $('#desktop4').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 4'"
+  $('#desktop5').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 5'"
