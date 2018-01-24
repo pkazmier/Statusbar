@@ -50,7 +50,7 @@ update: (output, domEl) ->
    # Create mpdHtmlString
    mpdHtmlString = "<span class='icon switch'></span><span class='white'>  #{artist} - #{song}&nbsp</span>"
 
-   emptySpace = (70 - artist.length - song.length - 3) / 2
+   emptySpace = (120 - artist.length - song.length - 3) / 2
 
    elapsedCounter = parseInt(elapsed * emptySpace)
    remainingCounter = emptySpace - elapsedCounter - 1
