@@ -29,13 +29,13 @@ update: (output, domEl) ->
    total = values[3]
    status = @cutWhiteSpace(values[4])
 
-   if artist.length >= 25
-     artist = artist.substring(0,13)
+   if artist.length >= 30
+     artist = artist.substring(0,29)
      artist = @cutWhiteSpace(artist)
      song = song + "…"
 
-   if song.length >= 25
-     song = song.substring(0,13)
+   if song.length >= 30
+     song = song.substring(0,29)
      song = @cutWhiteSpace(song)
      song = song + "…"
 
