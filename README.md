@@ -9,7 +9,7 @@ The spotify widget relies on the shell-script [shpotify](https://github.com/hnar
 Place the spotify script into `/usr/local/bin/` using your preferred method,
 or change the path in the `spotify.coffee` file.
 
-FontAwesome must be installed system wide (Grab FontAwesome.otf from somewhere and drop it into FontBook.app).
+FontAwesome must be installed system wide (Grab FontAwesome.otf from this repo and drop it into FontBook.app).
 Clone repo and move the entire **widgets** folder into `~/Library/Application Support/Übersicht/`
 
 Get Übersicht here http://tracesof.net/uebersicht/
