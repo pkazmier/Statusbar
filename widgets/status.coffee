@@ -30,6 +30,11 @@ timeAndDate: (date, time) ->
 batteryStatus: (battery, state) ->
   #returns a formatted html string current battery percentage, a representative icon and adds a lighting bolt if the
   # battery is plugged in and charging
+
+  # If no battery exists, battery is only '%' character
+  if state == 'AC' and battery == "%"
+    return "<span class='green icon'></span>"
+
   batnum = parseInt(battery)
   if state == 'AC' and batnum >= 90
     return "<span class='charging white sicon'></span><span class='green icon '></span>&nbsp;<span class='white'>#{batnum}%</span>"
