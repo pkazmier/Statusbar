@@ -1,4 +1,4 @@
-command: "echo $(/opt/local/bin/chunkc tiling::query -d id)"
+command: "echo $(/usr/local/bin/chunkc tiling::query -d id)"
 
 refreshFrequency: 1000
 
@@ -19,7 +19,7 @@ style: """
   position: relative
   margin-top: 5px
   font: 14px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
-  color: #aaa
+  color: #737c8c
   font-weight: 700
 
   ul
@@ -36,8 +36,8 @@ style: """
       max-width: 20px
 
   li.active
-    color: #ededed
-    border-bottom: 2px solid #ededed
+    color: #abb2bf
+    border-bottom: 2px solid #abb2bf
 """
 
 update: (output, domEl) ->
@@ -45,8 +45,8 @@ update: (output, domEl) ->
     $(domEl).find('li.active').removeClass('active')
     $(domEl).find('li#desktop' + output).addClass('active')
 
-  $('#desktop1').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 1'"
-  $('#desktop2').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 2'"
-  $('#desktop3').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 3'"
-  $('#desktop4').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 4'"
-  $('#desktop5').on "click", => @run "/opt/local/bin/qes -k 'cmd + alt - 5'"
+  $('#desktop1').on "click", => @run "/usr/local/bin/qes -k 'cmd + alt - 1'"
+  $('#desktop2').on "click", => @run "/usr/local/bin/qes -k 'cmd + alt - 2'"
+  $('#desktop3').on "click", => @run "/usr/local/bin/qes -k 'cmd + alt - 3'"
+  $('#desktop4').on "click", => @run "/usr/local/bin/qes -k 'cmd + alt - 4'"
+  $('#desktop5').on "click", => @run "/usr/local/bin/qes -k 'cmd + alt - 5'"

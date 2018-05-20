@@ -1,11 +1,11 @@
 table, span {
-    color: #876769;
+    color: #abb2bf;
     font: 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
 }
 .white {
-    color: #a5a5a5;
+    color: #737c8c;
 }
 
 .black {
@@ -25,7 +25,7 @@ table, span {
 }
 
 .orange {
-    color: #dc752f;
+    color: #d19a66;
 }
 .orangebg {
     background: #dc752f;
@@ -60,7 +60,7 @@ table, span {
 }
 
 .blue {
-    color: #4f97d7;
+    color: #61afef;
 }
 
 .teal {
